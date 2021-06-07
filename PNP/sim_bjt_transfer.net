@@ -1,0 +1,12 @@
+* C:\Users\ACER\Desktop\BJT\pnp\sim_bjt_transfer.asc
+Q1 VEB 0 VEC 0 2N3906
+V1 VEB 0 0
+V2 0 VEC 5
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\ACER\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.include 2N3906.SP3
+.dc V1 0 1 0.01
+* pnp
+.backanno
+.end
