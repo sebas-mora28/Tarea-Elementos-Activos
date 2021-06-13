@@ -1,9 +1,0 @@
-* C:\Users\sebas\OneDrive\Attachments\Desktop\TareaDeActivos\caca\Tarea-Elementos-Activos\PMOS\sim_pmos_transferencia.asc
-V1 VSD N001 0 AC 10
-XM1 0 N001 VSD TP0610K
-V2 VSD 0 5
-.dc V1 0 4 0.01
-.include tp0610k.txt
-* Curva de transferencia ID vs VSG
-.backanno
-.end
